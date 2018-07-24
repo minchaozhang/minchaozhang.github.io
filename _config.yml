@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: MC的博客
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: Minchao Zhang
+language: zh-CN
 timezone:
 
 # URL
@@ -73,14 +73,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repo: git@gitee.com:minchaozhang/minchaozhang.git
+    repo: git@github.com:minchaozhang/minchaozhang.github.io.git
     branch: master
   - type: git
     repo: git@github.com:minchaozhang/minchaozhang.github.io.git
-    branch: master
+    branch: src
+    extend_dirs: /
+    ignore_hidden: false
+    ignore_pattern:
+        public: .
