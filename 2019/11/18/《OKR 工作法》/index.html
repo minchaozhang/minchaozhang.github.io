@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="呆码熊的博客" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="《OKR 工作法》是我今年完整读完的第一本书，其实也是我毕业以来完整读完的第一本书。我很庆幸我读了这本书，这本书是我在一个周六的一次性读完的。真的是难得，像我这样一个完全不喜欢看书的人，居然能在一天以内看完这本书。当然需要感谢作者，把一个工作法写的这么精彩，让我能在一天之内保持高度集中把书看完。">
+<meta name="keywords" content="读书,OKR,工作法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《OKR 工作法》">
+<meta property="og:url" content="http://yoursite.com/2019/11/18/《OKR 工作法》/index.html">
+<meta property="og:site_name" content="呆码熊的博客">
+<meta property="og:description" content="《OKR 工作法》是我今年完整读完的第一本书，其实也是我毕业以来完整读完的第一本书。我很庆幸我读了这本书，这本书是我在一个周六的一次性读完的。真的是难得，像我这样一个完全不喜欢看书的人，居然能在一天以内看完这本书。当然需要感谢作者，把一个工作法写的这么精彩，让我能在一天之内保持高度集中把书看完。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-18T01:53:05.009Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="《OKR 工作法》">
+<meta name="twitter:description" content="《OKR 工作法》是我今年完整读完的第一本书，其实也是我毕业以来完整读完的第一本书。我很庆幸我读了这本书，这本书是我在一个周六的一次性读完的。真的是难得，像我这样一个完全不喜欢看书的人，居然能在一天以内看完这本书。当然需要感谢作者，把一个工作法写的这么精彩，让我能在一天之内保持高度集中把书看完。">
+
+<link rel="canonical" href="http://yoursite.com/2019/11/18/《OKR 工作法》/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>《OKR 工作法》 | 呆码熊的博客</title>
+  
+    <script>
+      function sendPageView() {
+        var host = window.location.hostname;
+        if (host == "localhost" && true) return;
+        var uid = localStorage.getItem('uid') || (Math.random() + '.' + Math.random());
+        localStorage.setItem('uid', uid);
+        navigator.sendBeacon('https://www.google-analytics.com/collect', new URLSearchParams({
+          v  : 1,
+          tid: 'UA-153860690-1',
+          cid: uid,
+          t  : 'pageview',
+          dp : encodeURIComponent(location.pathname)
+        }));
+      }
+      document.addEventListener('pjax:complete', sendPageView);
+      sendPageView();
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">呆码熊的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/18/《OKR 工作法》/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/bear.jpeg">
+      <meta itemprop="name" content="MinChao Zhang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="呆码熊的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          《OKR 工作法》
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-11-18 09:42:58 / 修改时间：09:53:05" itemprop="dateCreated datePublished" datetime="2019-11-18T09:42:58+08:00">2019-11-18</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Book/" itemprop="url" rel="index">
+                    <span itemprop="name">Book</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>《OKR 工作法》是我今年完整读完的第一本书，其实也是我毕业以来完整读完的第一本书。我很庆幸我读了这本书，这本书是我在一个周六的一次性读完的。真的是难得，像我这样一个完全不喜欢看书的人，居然能在一天以内看完这本书。当然需要感谢作者，把一个工作法写的这么精彩，让我能在一天之内保持高度集中把书看完。</p>
+<a id="more"></a>
+<h3 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h3><p>作者首先给我们虚构了一个完整的故事，如果作者不说是自己虚构的，我真的会以为这就是一个真实的创业故事。</p>
+<p>故事讲述了汉娜和杰克为了实现让喜欢喝茶的人喝到好茶的目标执行 OKR 工作法的完整过程。</p>
+<p>汉娜和杰克在创业初期就有一致的目标，他们也都保持着极度的热情努力工作着。但是汉娜的所有精力在自己负责的业务上，而杰克的精力则在产品上，他们所聚焦的点完全不一样。慢慢的矛盾衍化出来，汉娜抱怨网站难用，客户完全不想使用公司设计的网站下订单，只能由汉娜自己去录入那些数据。而杰克则在抱怨汉娜的销售策略偏离了他们原本的目标，没有突出自己公司产品品牌。这种矛盾让他们陷入争吵中，他们决定请教投资人吉姆，而就是吉姆给他们推荐了 OKR。</p>
+<p>在了解到 OKR 的之后，汉娜和杰克进行了尝试，但是他们对 OKR 工作法理解不深，所以并没有实质解决他们所面临的问题，导致他们的工作并没有取得进展，公司陷入困境。又是吉姆，及时为这个团队带来了一个 OKR 教练的角色——拉斐尔。拉斐尔由丰富的使用 OKR 工作法的经验，他指出了汉娜和杰克在执行 OKR 工作法中的一些问题：</p>
+<ul>
+<li>目标太多，不够聚焦</li>
+<li>没有盘点关键结果</li>
+<li>未能持续关注状态指标</li>
+<li>没能区分事情紧急重要程度</li>
+<li>没有实现目标的推进计划</li>
+</ul>
+<p>作者通过拉斐尔向我们指出了在执行 OKR 工作法的过程中，容易犯的一些问题。同样通过拉斐尔向我们展示了使用 OKR 工作法的正确姿势。</p>
+<p>汉娜和杰克，现在还有拉斐尔首先做的就是拉团队所有人一起来开会，共同讨论制定 OKR。在这个会议中，关键需要让所有人聚焦到会议上，具体做法是不让使用电脑和手机。他们首先是一起简单回顾了上季度的 OKR 执行情况，并以其中一个目标为例教我们如何制定一个优秀的 OKR。</p>
+<ol>
+<li>与团队一起讨论目标及完成目标的关键结果，并给每个关键结果设定了一个信心指数</li>
+<li>列出为了完成目标本周需要做的最重要的几件事，最多 4 件，并标上优先级：P1 是必须要做的，P2 是应该做的，P3 是可能要做的，P4 是可以不做的，只需要列出 P1 和 P2 的事情</li>
+<li>列出后续计划中要做的重要工作，保证所有人都在同一个轨道上</li>
+<li>最后再列出大家认为应该重点跟进的事情的状态，红色表示失败，黄色代表比较危险的状态，而绿色则表示正常向好的状态</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><strong>本周关注的任务**</strong>P1<strong>：和 TLM Foods 公司签订合约。</strong>P1<strong>：完成订单系统的需求文档。</strong>P1<strong>：三个销售候选人面试。</strong>P2**：完成客服的岗位描述。</th>
+<th><strong>OKR 当前的状态**</strong>目标<strong>：向餐厅供应商证明我们所提供的优质茶叶的价值</strong>关键结果1<strong>：客户重复订购率达到 85%。（5/10）</strong>关键结果2<strong>：20% 的重复订购客户能自助完成重复订购。（5/10）</strong>关键结果3**：完成 25 万美元的交易额。（5/10）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>未来四周的计划</strong>购买服务器准备市场开发</td>
+<td><strong>状态指标</strong>客户满意度团队氛围</td>
+</tr>
+</tbody>
+</table>
+<p>团队一起制定的 OKR，每周五都需要以例会的方式进行盘点。如果没有每周的盘点，团队每个成员需要做的事情实在是太多，即使是那么简单的目标也是很容易忘记，因此让团队每周盘点一下记住一起讨论制定的目标，然后扪心自问我们距离完成这些指标是更近了还是更远了，并更新关键结果的信心指数。如果你做了一些有成果的事情，提高了信心指数，那就在会议上分享它。如果信心指数从 8/10 降到了 2/10，那你就要知道为什么，发生了什么变化，及时跟进和反思调整。</p>
+<p>除了每周五会盘点当前的 OKR，每个季度也会进行成果盘点，并再次制定新一个季度的 OKR。</p>
+<p>经过半年的 OKR 工作法的实践，汉娜和杰克的公司在业务上做到了行业领先，团队得到了快速成长。而一年后再次进行成果盘点时，他们完成了 A 轮融资，一切变得顺其自然，变得容易实现。每个星期，他们一起分享自己的目标；每个星期，他们都相互鼓励、相互扶持；每个星期，业绩都在上升。团队成员之间轻松愉快地讨论，交换意见，即使有分歧也很容易解决。</p>
+<p>故事就此讲完了，我们看到了执行 OKR 工作法之后，一个原本问题重重的团队，成长并达成目标的故事。</p>
+<h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>在故事中，拉斐尔说过：“目标哪有什么一般目标和可挑战目标，它们都是可挑战目标，一定要有挑战才行。不是不可能完成，而是要有难度。不可能完成的目标会令人沮丧，有难度的目标才是振奋人心的。”这句话描述了一个什么样的目标才是一个好的目标。对于一个好的目标我们应该遵循以下原则：</p>
+<ul>
+<li>目标要有明确方向并且鼓舞人心</li>
+<li>目标要有时间期限</li>
+<li>有独立的团掉来执行目标</li>
+</ul>
+<p>好的目标能激励团队斗志，看起来难以实现，但仍然有希望在设定的时间内由制定的团队独立达成。</p>
+<h3 id="关键结果"><a href="#关键结果" class="headerlink" title="关键结果"></a>关键结果</h3><p>每一个关键结果都需要使用那些振奋人心的语言并且需要量化。如何制定关键结果？你可以通过一个简单的问题来确立它们：“如何确定目标是否达成？”。通常情况下，一个目标有 3 个关键结果，它们基于可以量化的任何条件。明智地选择出关键结果，可以是增长与性能、收入与质量这样的结果得到平衡。</p>
+<p>我们制定的关键结果应该是比较困难，但并非不可能实现。我们为每个关键结果设定信心指数，就是为了让我们明确这个关键结果实现有难度但是并非不可能。起初每个关键结果设定一个 5/10 的信心指数，表明我们有 50% 的把握达成目标，这是一个合适的定位；1/10 表示无法完成目标，这样的指数会让大家失去信心导致消极对待；10/10 则表明这个目标一定能搞定，但同时也就意味着这个目标定得太低了，很可能是制定目标时隐藏了实力。</p>
+<p>例如，工程师会认为客户满意度和网站加载速度紧密相关，所以可以这样制定 OKR：</p>
+<ul>
+<li>目标：产品性能达到知名公司的标准。</li>
+<li>关键结果1：99.8% 的产品正常运行率。（5/10）</li>
+<li>关键结果2：小于 1 秒的响应时间。（5/10）</li>
+<li>关键结果3：在用户看来，产品加载都是瞬间完成的。（5/10）</li>
+</ul>
+<h3 id="盘点"><a href="#盘点" class="headerlink" title="盘点"></a>盘点</h3><p>每周的盘点对 OKR 执行非常重要。团队一起开会盘点 OKR 的执行过程，并明确本周具体负责完成哪些任务才会让团队的目标更近一步。作者给我们推荐的是一种四象限的 OKR 展示形式，即我们在故事中看到的表格。盘点会议就围绕着这四个象限进行讨论，当然会议肯定是越短越好，无需事无巨细一一列举出来，把会议的基调定在大家为了共同目标的相互支持与配合上。</p>
+<h3 id="个人-OKR"><a href="#个人-OKR" class="headerlink" title="个人 OKR"></a>个人 OKR</h3><p>对于我个人来说，我一直也是有一个读书相关的目标。可是一直没有执行，也就是说还没有走出第一步，去读第一本书，完成第一篇读书笔记。但是我比较庆幸我读的第一本书是这本《OKR 工作法》，虽然这本书说的是工作法，但其实也同样可以应用到个人的生活中去。所以我会通过 OKR 工作法来执行我下个季度的读书目标。</p>
+<ul>
+<li>目标：读更多好书，写好读书笔记。</li>
+<li>关键结果1：读完 6 本书。（5/10）</li>
+<li>关键结果2：写 6 篇读书笔记。（5/10）</li>
+<li>关键结果3：坚持按每两周读一本书，并写一篇读书笔记。并每周盘点状态。（5/10）</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/读书/" rel="tag"># 读书</a>
+              <a href="/tags/OKR/" rel="tag"># OKR</a>
+              <a href="/tags/工作法/" rel="tag"># 工作法</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2019/11/12/hello-world/" rel="next" title="Hello World">
+                  <i class="fa fa-chevron-left"></i> Hello World
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#故事"><span class="nav-number">1.</span> <span class="nav-text">故事</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#目标"><span class="nav-number">2.</span> <span class="nav-text">目标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关键结果"><span class="nav-number">3.</span> <span class="nav-text">关键结果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#盘点"><span class="nav-number">4.</span> <span class="nav-text">盘点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#个人-OKR"><span class="nav-number">5.</span> <span class="nav-text">个人 OKR</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="MinChao Zhang"
+      src="/images/bear.jpeg">
+  <p class="site-author-name" itemprop="name">MinChao Zhang</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">MinChao Zhang</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: '189e0ddfe4a44558dabf',
+      clientSecret: 'e509af9a3c5b908eb25d2c7c49d84500e7791aaa',
+      repo: 'minchaozhang.github.io',
+      owner: 'minchaozhang',
+      admin: ['minchaozhang'],
+      id: '31268d93497cf17267a514f328abad89',
+        language: 'zh-CN',
+      distractionFreeMode: 'true'
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="呆码熊的博客" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="我是呆码熊，一只天天写呆码的熊。 我生于 90 年代初，也就是大家眼里的 90 后程序员，现居于合肥。14 年毕业于安徽工业大学软件工程专业，并非大家所听说的合肥工业大学，虽然我曾经在找工作的时候也蹭过合工大的热度。 在学校期间自学了 iOS 开发，从此入坑之后就没有起来了。说起来毕业至今正式参加工作的时间也不短了，刚开始学习 iOS 开发纯粹是源于自己对苹果的仰慕，及对客户端开发的兴趣。现在 i">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于呆码熊">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:site_name" content="呆码熊的博客">
+<meta property="og:description" content="我是呆码熊，一只天天写呆码的熊。 我生于 90 年代初，也就是大家眼里的 90 后程序员，现居于合肥。14 年毕业于安徽工业大学软件工程专业，并非大家所听说的合肥工业大学，虽然我曾经在找工作的时候也蹭过合工大的热度。 在学校期间自学了 iOS 开发，从此入坑之后就没有起来了。说起来毕业至今正式参加工作的时间也不短了，刚开始学习 iOS 开发纯粹是源于自己对苹果的仰慕，及对客户端开发的兴趣。现在 i">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-12-16T11:11:18.929Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="关于呆码熊">
+<meta name="twitter:description" content="我是呆码熊，一只天天写呆码的熊。 我生于 90 年代初，也就是大家眼里的 90 后程序员，现居于合肥。14 年毕业于安徽工业大学软件工程专业，并非大家所听说的合肥工业大学，虽然我曾经在找工作的时候也蹭过合工大的热度。 在学校期间自学了 iOS 开发，从此入坑之后就没有起来了。说起来毕业至今正式参加工作的时间也不短了，刚开始学习 iOS 开发纯粹是源于自己对苹果的仰慕，及对客户端开发的兴趣。现在 i">
+
+<link rel="canonical" href="http://yoursite.com/about/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: false,
+    isPage: true,
+    isArchive: false
+  };
+</script>
+
+  <title>关于呆码熊 | 呆码熊的博客
+  </title>
+  
+    <script>
+      function sendPageView() {
+        var host = window.location.hostname;
+        if (host == "localhost" && true) return;
+        var uid = localStorage.getItem('uid') || (Math.random() + '.' + Math.random());
+        localStorage.setItem('uid', uid);
+        navigator.sendBeacon('https://www.google-analytics.com/collect', new URLSearchParams({
+          v  : 1,
+          tid: 'UA-153860690-1',
+          cid: uid,
+          t  : 'pageview',
+          dp : encodeURIComponent(location.pathname)
+        }));
+      }
+      document.addEventListener('pjax:complete', sendPageView);
+      sendPageView();
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">呆码熊的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+    
+    
+    
+    <div class="post-block" lang="zh-CN">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">关于呆码熊
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <p>我是呆码熊，一只天天写呆码的熊。</p>
+<p>我生于 90 年代初，也就是大家眼里的 90 后程序员，现居于合肥。14 年毕业于安徽工业大学软件工程专业，并非大家所听说的合肥工业大学，虽然我曾经在找工作的时候也蹭过合工大的热度。</p>
+<p>在学校期间自学了 iOS 开发，从此入坑之后就没有起来了。说起来毕业至今正式参加工作的时间也不短了，刚开始学习 iOS 开发纯粹是源于自己对苹果的仰慕，及对客户端开发的兴趣。现在 iOS 开发也就变成了我的本职工作，不过还是对 iOS 开发保持热情。只要苹果不倒，我依然会继续从事 iOS 开发工作。</p>
+<p>工作以来经历过几家公司，包括科大讯飞、飞友科技。</p>
+<p>科大讯飞名气还算比较大的吧，以语音闻名。但是我在科大讯飞的工作和语音毫无关系，开发的是一款教育类的应用程序：智学网。<a href="https://www.zhixue.com/" target="_blank" rel="noopener">智学网</a>初期的三个端（学生、家长和教师）都是由我开发上线。我离开智学网的时间比较久了，听以前的同事说现在运营的还挺不错的。而<a href="http://www.variflight.com/" target="_blank" rel="noopener">飞友科技</a>则是一家专门做航空数据服务的公司，也算是一家不错的互联网公司。主要产品是：飞常准（VariFlight）。不过我在公司并没有负责飞常准应用程序的开发，而是在做 A-CDM（机场协同决策系统）iOS 客户端相关的工作。飞友科技的公司目标是：让世界更准点（Living on time）。所以在飞友科技期间未曾加班过一次，在舒适的环境中工作了将近两年的时间。</p>
+<p>现在就职于<a href="https://www.sensorsdata.cn/" target="_blank" rel="noopener">神策数据</a>，负责维护神策分析 iOS SDK。神策分析 iOS SDK 国内第一家开源商用版用户行为采集 SDK，目前支持代码埋点、全埋点、App 点击图、可视化全埋点等。GitHub 地址：<a href="https://github.com/sensorsdata/sa-sdk-ios" target="_blank" rel="noopener">https://github.com/sensorsdata/sa-sdk-ios</a> 。想了解更多与与埋点相关的技术，可以购买我参与编写的《iOS 全埋点》一书。</p>
+<p>神策数据属于我理想中的公司，一个把一件事情做到极致的公司。接下来的时间，我会继续在神策维护神策分析 iOS SDK，希望能通过我的努力，把 iOS SDK 做到极致。</p>
+<p>从一名 iOS 应用程序开发者，转变为一个开源商业版 SDK 维护者，是一件几句挑战性的事情。如果你是一名 iOS 开发者，并且想做一些具有挑战性的工作，欢迎吧你的简历发送到我的邮箱：<a href="mailto:zhangminchao@sensorsdata.cn" target="_blank" rel="noopener">zhangminchao@sensorsdata.cn</a>。</p>
+<p>这个网站是我的个人网站，域名其实是我的名字。之所以搭建这个网站，是因为在这么多年的开发中，学习了很多知识，也积累了一些经验，但是却一直没有分享出来。我看过很多优秀的 iOS 大神写的博客，我也一直想学习他们和大家分享自己所学所想，但是自己这渣渣的写作水平一直不好意思和大家分享。参与编写《iOS 全埋点》之后，锻炼了自己的写作能力，开始有了勇气写写博客。希望将我这些年积累的知识和开发经验分享给大家，同时也希望自己的文档能力能够不断提升。</p>
+<p>本站使用 Hexo 搭建，感谢 GitHub 提供的免费的 Page 服务。</p>
+
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="MinChao Zhang"
+      src="/images/bear.jpeg">
+  <p class="site-author-name" itemprop="name">MinChao Zhang</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">MinChao Zhang</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: '189e0ddfe4a44558dabf',
+      clientSecret: 'e509af9a3c5b908eb25d2c7c49d84500e7791aaa',
+      repo: 'minchaozhang.github.io',
+      owner: 'minchaozhang',
+      admin: ['minchaozhang'],
+      id: '3be7aa98d992907175cbd79c194399f2',
+        language: 'zh-CN',
+      distractionFreeMode: 'true'
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+</script>
+
+</body>
+</html>
